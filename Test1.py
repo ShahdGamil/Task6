@@ -17,5 +17,5 @@ class TestCelsiusToKelvin(unittest.TestCase):
     def test_large_temperature(self):
         self.assertEqual(celsius_to_kelvin(1000), 1273.15)
 
-if _name_ == '_main_':
+if __name__ == '_main_':
         unittest.main()
